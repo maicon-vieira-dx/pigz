@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.50bbb96d.css",
-    "main.js": "./static/js/main.102eb5fa.js",
+    "main.css": "./static/css/main.b2614faa.css",
+    "main.js": "./static/js/main.3097510b.js",
     "static/media/burguer_2@3x.png": "./static/media/burguer_2@3x.6f8466763e382349e5bd.png",
     "static/media/Grupo de máscara 2417@2x.png": "./static/media/Grupo de máscara 2417@2x.dce6322aea62009359d4.png",
     "static/media/Grupo de máscara 2418@2x.png": "./static/media/Grupo de máscara 2418@2x.21e4035e9e3ce48ac250.png",
@@ -16,11 +16,11 @@
     "static/media/Grupo 3535@2x.png": "./static/media/Grupo 3535@2x.cf80c93660dc0070e5eb.png",
     "static/media/brazil.png": "./static/media/brazil.921b37277e4de9dc459f.png",
     "index.html": "./index.html",
-    "main.50bbb96d.css.map": "./static/css/main.50bbb96d.css.map",
-    "main.102eb5fa.js.map": "./static/js/main.102eb5fa.js.map"
+    "main.b2614faa.css.map": "./static/css/main.b2614faa.css.map",
+    "main.3097510b.js.map": "./static/js/main.3097510b.js.map"
   },
   "entrypoints": [
-    "static/css/main.50bbb96d.css",
-    "static/js/main.102eb5fa.js"
+    "static/css/main.b2614faa.css",
+    "static/js/main.3097510b.js"
   ]
 }
