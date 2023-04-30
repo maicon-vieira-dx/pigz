@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.50bbb96d.css",
+    "main.js": "./static/js/main.102eb5fa.js",
+    "static/media/burguer_2@3x.png": "./static/media/burguer_2@3x.6f8466763e382349e5bd.png",
+    "static/media/Grupo de máscara 2417@2x.png": "./static/media/Grupo de máscara 2417@2x.dce6322aea62009359d4.png",
+    "static/media/Grupo de máscara 2418@2x.png": "./static/media/Grupo de máscara 2418@2x.21e4035e9e3ce48ac250.png",
+    "static/media/burguer_2@2x.png": "./static/media/burguer_2@2x.559ce0745d91b583dcfe.png",
+    "static/media/Grupo de máscara 2420@2x.png": "./static/media/Grupo de máscara 2420@2x.711ffa7dfdc10918d02c.png",
+    "static/media/mobile@2x.png": "./static/media/mobile@2x.0ff1b8163d3235e9eac8.png",
+    "static/media/Grupo de máscara 2417.png": "./static/media/Grupo de máscara 2417.82bd29ae7f0f151b1609.png",
+    "static/media/Grupo de máscara 2418.png": "./static/media/Grupo de máscara 2418.df26efbf306e7561ec9e.png",
+    "static/media/burguer_2.png": "./static/media/burguer_2.c02ad6bdfab9dcf61f09.png",
+    "static/media/Grupo de máscara 2420.png": "./static/media/Grupo de máscara 2420.70f20e0745b74f723dba.png",
+    "static/media/mobile.png": "./static/media/mobile.30701948339ff8a0c291.png",
+    "static/media/Grupo 3535@2x.png": "./static/media/Grupo 3535@2x.cf80c93660dc0070e5eb.png",
+    "static/media/brazil.png": "./static/media/brazil.921b37277e4de9dc459f.png",
+    "index.html": "./index.html",
+    "main.50bbb96d.css.map": "./static/css/main.50bbb96d.css.map",
+    "main.102eb5fa.js.map": "./static/js/main.102eb5fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50bbb96d.css",
+    "static/js/main.102eb5fa.js"
+  ]
+}
