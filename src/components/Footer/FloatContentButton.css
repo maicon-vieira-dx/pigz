@@ -1,0 +1,9 @@
+.smallText {
+    font: 0.8360rem Poppins;
+}
+
+@media (max-width: 768px){
+    .smallText {
+        font: 0.59rem Poppins;
+    }
+}

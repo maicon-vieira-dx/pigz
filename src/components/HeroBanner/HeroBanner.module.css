@@ -1,0 +1,14 @@
+.bannerOrange {
+    background: linear-gradient(254deg, rgb(250, 100, 30) 0%, rgb(255, 136, 31) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.pigz {
+    position: absolute;
+    bottom: 0px;
+    transform: translate(-50%, 142px);
+    left: 50%;
+    right: 50%;
+    text-align: center;
+}

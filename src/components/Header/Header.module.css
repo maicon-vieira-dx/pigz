@@ -1,0 +1,13 @@
+.header{
+    background: 0% 0% no-repeat padding-box padding-box rgba(255, 255, 255, 0.84);
+    opacity: 1;
+    backdrop-filter: blur(24px);
+    height: 80px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1001;
+}
