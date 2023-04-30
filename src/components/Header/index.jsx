@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from 'assets/Pigz Gestão - Logo.png'
+import logo from 'assets/Pigz Gestão - Logo@2x.png'
 
 import ButtonOrange from 'components/ButtonOrange'
 
