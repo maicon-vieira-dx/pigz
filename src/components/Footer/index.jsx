@@ -1,8 +1,6 @@
 import React from 'react'
 
 import logogray from 'assets/pigz-logotipo-colorido.png'
-import appstore from 'assets/selo-app-store.png'
-import playstore from 'assets/selo-google-play.png'
 import contactus from 'assets/icone-fale-conosco.png'
 import logoorange from 'assets/logo-orange-horizontal-branco.png'
 
@@ -15,14 +13,17 @@ export default function Footer({Text, Download, About, ContactUs, Networks, Copy
             <div className='grid justify-between grid-cols-1 md:grid-cols-3 items-start pt-6'>
                 <div>
                     <div>
-                        <img src={logogray} alt="Logo cinza" />
+                        <img src={logogray} alt="Logo cinza" className='w-12 h-6'/>
                         <span className='text-xs text-dark-gray'>{Text}</span>
                     </div>
                     <div className='mt-8 md:pt-16'>
                         <h5 className='font-semibold text-dark-gray'>{Download.Title}</h5>
                         <div className='flex justify-start items-center flex-row pt-5'>
-                            <img src={appstore} className='mr-2' alt='Logo Appstore'/>
-                            <img src={playstore} alt='Logo PlayStore' />
+                            {
+                                Download.Icons.map((item) => (
+                                    <img src={item} className='mr-2 w-20 h-7' alt='Lojas' key={item}/>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
@@ -49,7 +50,7 @@ export default function Footer({Text, Download, About, ContactUs, Networks, Copy
                     <div className='flex justify-start items-center flex-row'>
                         {
                             Networks.List.map((item, index) => (
-                                <img src={item} key={item + index} className='mr-4' alt='Logos redes' />
+                                <img src={item} key={item + index} className='mr-4 w-6 h-6' alt='Logos redes' />
                             ))
                         }
                     </div>
@@ -67,7 +68,7 @@ export default function Footer({Text, Download, About, ContactUs, Networks, Copy
                     </div>
                     <div className='mt-5 flex justify-center items-center flex-row'>
                         <p className='text-dark-gray mr-3 md:mr-6 smallText'>{Copyright.Text}</p>
-                        <img src={logoorange} alt='Logo Orange'/>
+                        <img src={logoorange} alt='Logo Orange' className='w-16 h-4'/>
                     </div>
                 </div>
         </div>

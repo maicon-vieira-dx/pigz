@@ -37,6 +37,7 @@
     transform: translate(20%, 30%)
 }
 
+
 @media (max-width: 900px){
     .swiperCarousel{
         margin-block: 3rem;

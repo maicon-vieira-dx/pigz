@@ -23,11 +23,6 @@ export default function TabsComponent({GridBoxs}) {
         bulletClass: style.pagination,
         bulletActiveClass: style.paginationActive
       }}
-      navigation={{
-        nextEl: `.${style.swiperButtonNext}`,
-        prevEl: `.${style.swiperButtonPrev}`,
-        disabledClass: `${style.buttonDisable}`
-      }}
       >
         {
           GridBoxs.map((item) => (

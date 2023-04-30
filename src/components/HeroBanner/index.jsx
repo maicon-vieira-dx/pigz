@@ -17,9 +17,9 @@ export default function HeroBanner({Title, Subtitle, Form}) {
         </div>
         <FormContainer Form={Form} />
         <picture>
-            <source srcSet={sandwichMobile} media="(max-width: 769px)"/>
+            <source srcSet={sandwichMobile} media="(max-width: 768px)"/>
             <source srcSet={sandwichTablet} media="(max-width: 1024px)"/>
-            <img src={sandwich} className='absolute -right-24 md:-right-0 lg:-right-20 top-0 md:top-11' alt='Imagem sanduíche' />
+            <img src={sandwich} className='absolute w-60 h-60 md:w-auto md:h-auto -right-24 md:-right-20 lg:-right-40 top-0 md:top-11' alt='Imagem sanduíche' />
         </picture>
     </div>
   )
