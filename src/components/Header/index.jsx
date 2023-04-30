@@ -11,7 +11,7 @@ export default function Header({Button}) {
     <div className={style.header}>
         <div className='w-full py-3 flex items-center justify-between'>
             <div className='md:px-24'>
-                <img src={logo} className='w-20 h-8 pl-4 cursor-pointer' alt='Logo Pigz'/>
+                <img src={logo} className={style.logo} alt='Logo Pigz'/>
             </div>
             <div className='md:px-24'>
                 <ButtonOrange width="95%">{Button}</ButtonOrange>

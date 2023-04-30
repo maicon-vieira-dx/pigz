@@ -50,7 +50,7 @@ export default function Footer({Text, Download, About, ContactUs, Networks, Copy
                     <div className='flex justify-start items-center flex-row'>
                         {
                             Networks.List.map((item, index) => (
-                                <img src={item} key={item + index} className='mr-4 w-6 h-6' alt='Logos redes' />
+                                <img src={item} key={item + index} className='mr-4 w-7 h-7' alt='Logos redes' />
                             ))
                         }
                     </div>

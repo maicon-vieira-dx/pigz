@@ -11,3 +11,17 @@
     top: 0px;
     z-index: 1001;
 }
+
+.logo {
+    margin-left: 1rem;
+    cursor: pointer;
+    width: 4.5rem;
+    height: 2.5rem;
+}
+
+@media (max-width: 768px){
+    .logo {
+        width: 4rem;
+        height: 2rem;
+    }
+}
