@@ -1,0 +1,6 @@
+@media (max-width: 320px) {
+    .float {
+        width: 13rem;
+        height: 13rem;
+    }
+}

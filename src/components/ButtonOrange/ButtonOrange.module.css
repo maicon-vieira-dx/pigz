@@ -20,3 +20,8 @@
         font: 500 14px / 25px Poppins;
     }
 }
+@media (max-width: 320px){
+    .buttonOrange {
+        font: 500 .7rem Poppins;
+    }
+}

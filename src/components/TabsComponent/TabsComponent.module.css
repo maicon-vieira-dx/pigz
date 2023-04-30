@@ -56,3 +56,15 @@
         height: .2rem;
     }
 }
+
+@media (max-width: 320px){
+    .pagination{
+        width: 2rem;
+        height: .2rem;
+    }
+    
+    .paginationActive {
+        width: 2rem;
+        height: .2rem;
+    }
+}

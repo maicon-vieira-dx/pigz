@@ -60,3 +60,21 @@ h2 {
     height: 40px;
   }
 }
+
+@media (max-width: 320px){
+  h2 {
+    font-size: 1.37rem !important;
+  }
+  p {
+    font-size: .8rem;
+  }
+  h3 {
+    font-size: 1rem !important;
+  }
+  h4 {
+    font-size: 1.3rem !important;
+  }
+  li {
+    font-size: .8rem;
+  }
+}

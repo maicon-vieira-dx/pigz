@@ -11,7 +11,7 @@ export default function HeroBanner({Title, Subtitle, Form}) {
   return (
     <div className={style.bannerOrange}>
         <div className='w-auto mt-9 ml-7 md:ml-28 md:mt-16 z-10 relative'>
-            <h2 className='text-white font-bold w-2/3'>{Title}</h2>
+            <h2 className=' text-white font-bold w-2/3'>{Title}</h2>
             <p className='text-white mt-8 md:mt-10 text-md md:text-lg w-11/12 md:w-1/2 font-light md:font-medium'>{Subtitle}</p>
         </div>
         <FormContainer Form={Form} />
