@@ -4,7 +4,7 @@ import { Box } from '@mui/material'
 
 import brazil from 'assets/brazil.png'
 
-import style from './Phone.module.css'
+import style from './Input.module.css'
 
 export const Input = ({Type, Placeholder, Name}) => {
     return (
@@ -35,7 +35,7 @@ export const InputSelect = ({Name, Placeholder}) => {
         <Box className='mr-5 mt-3 flex justify-center md:justify-start flex-col'>
             <p>{Name}</p>
             <select className={style.select}>
-                <option value="" disabled defaultValue>{Placeholder}</option>
+                <option value="" defaultValue>{Placeholder}</option>
                 <option value="opcao1">Opção 1</option>
                 <option value="opcao2">Opção 2</option>
                 <option value="opcao3">Opção 3</option>
